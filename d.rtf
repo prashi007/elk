@@ -1,0 +1,645 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fmodern Consolas;}{\f1\fnil\fcharset129 Courier New;}}
+{\colortbl ;\red20\green20\blue20;\red142\green142\blue142;\red16\green158\blue98;\red170\green64\blue64;\red85\green85\blue85;\red170\green51\blue170;}
+\viewkind4\uc1\pard\f0\fs20 [ec2-user@ip-172-31-11-0 ~]$ sudo sed -i s/\\$releasever/6/g /etc/yum.repos.d/epel-apache-maven.repo\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-11-0 ~]$ sudo yum install -y apache-maven\cf1\highlight2 
+\par \cf0\highlight0 maven from apache foundation.                                  8.9 kB/s | 4.0 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 Dependencies resolved.\cf1\highlight2 
+\par 
+\par \cf0\highlight0  Problem: cannot install the best candidate for the job\cf1\highlight2 
+\par \cf0\highlight0   - nothing provides java-1.7.0-openjdk-devel needed by apache-maven-3.5.2-1.el6.noarch\cf1\highlight2 
+\par \cf0\highlight0 ===============================================================================================\cf1\highlight2 
+\par \cf0\highlight0  Package                           Arch    Version                    Repository          Size\cf1\highlight2 
+\par \cf0\highlight0 ===============================================================================================\cf1\highlight2 
+\par \cf0\highlight0 Installing:\cf1\highlight2 
+\par \cf0\highlight0  \cf3 apache-maven                     \cf0  noarch  3.2.5-1.el6                epel-apache-maven  7.5 M\cf1\highlight2 
+\par \cf0\highlight0 Installing dependencies:\cf1\highlight2 
+\par \cf0\highlight0  \cf3 alsa-lib                         \cf0  x86_64  1.2.7.2-1.amzn2023.0.2     amazonlinux        504 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 cairo                            \cf0  x86_64  1.17.6-2.amzn2023.0.1      amazonlinux        684 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 dejavu-sans-fonts                \cf0  noarch  2.37-16.amzn2023.0.2       amazonlinux        1.3 M\cf1\highlight2 
+\par \cf0\highlight0  \cf3 dejavu-sans-mono-fonts           \cf0  noarch  2.37-16.amzn2023.0.2       amazonlinux        467 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 dejavu-serif-fonts               \cf0  noarch  2.37-16.amzn2023.0.2       amazonlinux        1.0 M\cf1\highlight2 
+\par \cf0\highlight0  \cf3 fontconfig                       \cf0  x86_64  2.13.94-2.amzn2023.0.2     amazonlinux        273 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 fonts-filesystem                 \cf0  noarch  1:2.0.5-12.amzn2023.0.2    amazonlinux        9.5 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 freetype                         \cf0  x86_64  2.13.0-2.amzn2023.0.1      amazonlinux        422 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 giflib                           \cf0  x86_64  5.2.1-9.amzn2023.0.1       amazonlinux         49 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 google-noto-fonts-common         \cf0  noarch  20201206-2.amzn2023.0.2    amazonlinux         15 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 google-noto-sans-vf-fonts        \cf0  noarch  20201206-2.amzn2023.0.2    amazonlinux        492 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 graphite2                        \cf0  x86_64  1.3.14-7.amzn2023.0.2      amazonlinux         97 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 harfbuzz                         \cf0  x86_64  7.0.0-2.amzn2023.0.1       amazonlinux        868 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 java-17-amazon-corretto-headless \cf0  x86_64  1:17.0.9+8-1.amzn2023.1    amazonlinux         91 M\cf1\highlight2 
+\par \cf0\highlight0  \cf3 java-21-amazon-corretto          \cf0  x86_64  1:21.0.1+12-1.amzn2023.2   amazonlinux        214 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 java-21-amazon-corretto-devel    \cf0  x86_64  1:21.0.1+12-1.amzn2023.2   amazonlinux        150 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 java-21-amazon-corretto-headless \cf0  x86_64  1:21.0.1+12-1.amzn2023.2   amazonlinux         97 M\cf1\highlight2 
+\par \cf0\highlight0  \cf3 javapackages-filesystem          \cf0  noarch  6.0.0-7.amzn2023.0.6       amazonlinux         12 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 javapackages-tools               \cf0  noarch  6.0.0-7.amzn2023.0.6       amazonlinux         25 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 langpacks-core-font-en           \cf0  noarch  3.0-21.amzn2023.0.4        amazonlinux         10 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libICE                           \cf0  x86_64  1.0.10-6.amzn2023.0.2      amazonlinux         71 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libSM                            \cf0  x86_64  1.2.3-8.amzn2023.0.2       amazonlinux         42 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libX11                           \cf0  x86_64  1.7.2-3.amzn2023.0.4       amazonlinux        657 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libX11-common                    \cf0  noarch  1.7.2-3.amzn2023.0.4       amazonlinux        152 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libXau                           \cf0  x86_64  1.0.9-6.amzn2023.0.2       amazonlinux         31 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libXext                          \cf0  x86_64  1.3.4-6.amzn2023.0.2       amazonlinux         41 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libXi                            \cf0  x86_64  1.7.10-6.amzn2023.0.2      amazonlinux         40 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libXinerama                      \cf0  x86_64  1.1.4-8.amzn2023.0.2       amazonlinux         15 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libXrandr                        \cf0  x86_64  1.5.2-6.amzn2023.0.2       amazonlinux         28 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libXrender                       \cf0  x86_64  0.9.10-14.amzn2023.0.2     amazonlinux         28 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libXt                            \cf0  x86_64  1.2.0-4.amzn2023.0.2       amazonlinux        181 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libXtst                          \cf0  x86_64  1.2.3-14.amzn2023.0.2      amazonlinux         21 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libbrotli                        \cf0  x86_64  1.0.9-4.amzn2023.0.2       amazonlinux        315 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libjpeg-turbo                    \cf0  x86_64  2.1.4-2.amzn2023.0.5       amazonlinux        190 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libpng                           \cf0  x86_64  2:1.6.37-10.amzn2023.0.6   amazonlinux        128 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libxcb                           \cf0  x86_64  1.13.1-7.amzn2023.0.2      amazonlinux        230 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 pixman                           \cf0  x86_64  0.40.0-3.amzn2023.0.3      amazonlinux        295 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 xml-common                       \cf0  noarch  0.6.3-56.amzn2023.0.2      amazonlinux         32 k\cf1\highlight2 
+\par \cf0\highlight0 Skipping packages with broken dependencies:\cf1\highlight2 
+\par \cf0\highlight0  apache-maven                      noarch  3.5.2-1.el6                epel-apache-maven  8.1 M\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Transaction Summary\cf1\highlight2 
+\par \cf0\highlight0 ===============================================================================================\cf1\highlight2 
+\par \cf0\highlight0 Install  39 Packages\cf1\highlight2 
+\par \cf0\highlight0 Skip      1 Package\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Total download size: 204 M\cf1\highlight2 
+\par \cf0\highlight0 Installed size: 528 M\cf1\highlight2 
+\par \cf0\highlight0 Downloading Packages:\cf1\highlight2 
+\par \cf0\highlight0 (1/39): libXtst-1.2.3-14.amzn2023.0.2.x86_64.rpm               316 kB/s |  21 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (2/39): libXi-1.7.10-6.amzn2023.0.2.x86_64.rpm                 571 kB/s |  40 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (3/39): libXrender-0.9.10-14.amzn2023.0.2.x86_64.rpm           773 kB/s |  28 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (4/39): freetype-2.13.0-2.amzn2023.0.1.x86_64.rpm              3.5 MB/s | 422 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (5/39): libxcb-1.13.1-7.amzn2023.0.2.x86_64.rpm                3.3 MB/s | 230 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (6/39): libXt-1.2.0-4.amzn2023.0.2.x86_64.rpm                  2.9 MB/s | 181 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (7/39): libXau-1.0.9-6.amzn2023.0.2.x86_64.rpm                 1.3 MB/s |  31 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (8/39): libpng-1.6.37-10.amzn2023.0.6.x86_64.rpm               1.8 MB/s | 128 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (9/39): libXinerama-1.1.4-8.amzn2023.0.2.x86_64.rpm            947 kB/s |  15 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (10/39): libSM-1.2.3-8.amzn2023.0.2.x86_64.rpm                 3.0 MB/s |  42 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (11/39): cairo-1.17.6-2.amzn2023.0.1.x86_64.rpm                7.6 MB/s | 684 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (12/39): java-21-amazon-corretto-21.0.1+12-1.amzn2023.2.x86_64 1.4 MB/s | 214 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (13/39): libXext-1.3.4-6.amzn2023.0.2.x86_64.rpm               761 kB/s |  41 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (14/39): fontconfig-2.13.94-2.amzn2023.0.2.x86_64.rpm          4.5 MB/s | 273 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (15/39): libICE-1.0.10-6.amzn2023.0.2.x86_64.rpm               1.5 MB/s |  71 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (16/39): libXrandr-1.5.2-6.amzn2023.0.2.x86_64.rpm             2.1 MB/s |  28 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (17/39): pixman-0.40.0-3.amzn2023.0.3.x86_64.rpm               3.3 MB/s | 295 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (18/39): giflib-5.2.1-9.amzn2023.0.1.x86_64.rpm                1.6 MB/s |  49 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (19/39): graphite2-1.3.14-7.amzn2023.0.2.x86_64.rpm            2.0 MB/s |  97 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (20/39): java-21-amazon-corretto-devel-21.0.1+12-1.amzn2023.2. 1.0 MB/s | 150 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (21/39): alsa-lib-1.2.7.2-1.amzn2023.0.2.x86_64.rpm            4.7 MB/s | 504 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (22/39): libX11-1.7.2-3.amzn2023.0.4.x86_64.rpm                6.6 MB/s | 657 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (23/39): harfbuzz-7.0.0-2.amzn2023.0.1.x86_64.rpm               11 MB/s | 868 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (24/39): libjpeg-turbo-2.1.4-2.amzn2023.0.5.x86_64.rpm         2.7 MB/s | 190 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (25/39): libbrotli-1.0.9-4.amzn2023.0.2.x86_64.rpm              10 MB/s | 315 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (26/39): javapackages-tools-6.0.0-7.amzn2023.0.6.noarch.rpm    507 kB/s |  25 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (27/39): google-noto-fonts-common-20201206-2.amzn2023.0.2.noar 308 kB/s |  15 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (28/39): dejavu-serif-fonts-2.37-16.amzn2023.0.2.noarch.rpm    5.6 MB/s | 1.0 MB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (29/39): google-noto-sans-vf-fonts-20201206-2.amzn2023.0.2.noa 5.9 MB/s | 492 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (30/39): libX11-common-1.7.2-3.amzn2023.0.4.noarch.rpm         1.4 MB/s | 152 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (31/39): dejavu-sans-fonts-2.37-16.amzn2023.0.2.noarch.rpm     8.5 MB/s | 1.3 MB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (32/39): dejavu-sans-mono-fonts-2.37-16.amzn2023.0.2.noarch.rp 4.0 MB/s | 467 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (33/39): langpacks-core-font-en-3.0-21.amzn2023.0.4.noarch.rpm  94 kB/s |  10 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (34/39): xml-common-0.6.3-56.amzn2023.0.2.noarch.rpm           832 kB/s |  32 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (35/39): fonts-filesystem-2.0.5-12.amzn2023.0.2.noarch.rpm     121 kB/s | 9.5 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (36/39): javapackages-filesystem-6.0.0-7.amzn2023.0.6.noarch.r 678 kB/s |  12 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (37/39): java-21-amazon-corretto-headless-21.0.1+12-1.amzn2023  35 MB/s |  97 MB     00:02\cf1\highlight2 
+\par \cf0\highlight0 (38/39): java-17-amazon-corretto-headless-17.0.9+8-1.amzn2023.  30 MB/s |  91 MB     00:03\cf1\highlight2 
+\par \cf0\highlight0 (39/39): apache-maven-3.2.5-1.el6.noarch.rpm                   3.1 MB/s | 7.5 MB     00:02\cf1\highlight2 
+\par \cf0\highlight0 -----------------------------------------------------------------------------------------------\cf1\highlight2 
+\par \cf0\highlight0 Total                                                           47 MB/s | 204 MB     00:04\cf1\highlight2 
+\par \cf0\highlight0 Running transaction check\cf1\highlight2 
+\par \cf0\highlight0 Transaction check succeeded.\cf1\highlight2 
+\par \cf0\highlight0 Running transaction test\cf1\highlight2 
+\par \cf0\highlight0 Transaction test succeeded.\cf1\highlight2 
+\par \cf0\highlight0 Running transaction\cf1\highlight2 
+\par \cf0\highlight0   Preparing        :                                                                       1/1\cf1\highlight2 
+\par \cf0\highlight0   Installing       : fonts-filesystem-1:2.0.5-12.amzn2023.0.2.noarch                      1/39\cf1\highlight2 
+\par \cf0\highlight0   Installing       : dejavu-sans-mono-fonts-2.37-16.amzn2023.0.2.noarch                   2/39\cf1\highlight2 
+\par \cf0\highlight0   Installing       : dejavu-sans-fonts-2.37-16.amzn2023.0.2.noarch                        3/39\cf1\highlight2 
+\par \cf0\highlight0   Installing       : javapackages-filesystem-6.0.0-7.amzn2023.0.6.noarch                  4/39\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libpng-2:1.6.37-10.amzn2023.0.6.x86_64                               5/39\cf1\highlight2 
+\par \cf0\highlight0   Installing       : dejavu-serif-fonts-2.37-16.amzn2023.0.2.noarch                       6/39\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libjpeg-turbo-2.1.4-2.amzn2023.0.5.x86_64                            7/39\cf1\highlight2 
+\par \cf0\highlight0   Installing       : alsa-lib-1.2.7.2-1.amzn2023.0.2.x86_64                               8/39\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libICE-1.0.10-6.amzn2023.0.2.x86_64                                  9/39\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libSM-1.2.3-8.amzn2023.0.2.x86_64                                   10/39\cf1\highlight2 
+\par \cf0\highlight0   Running scriptlet: xml-common-0.6.3-56.amzn2023.0.2.noarch                             11/39\cf1\highlight2 
+\par \cf0\highlight0   Installing       : xml-common-0.6.3-56.amzn2023.0.2.noarch                             11/39\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libX11-common-1.7.2-3.amzn2023.0.4.noarch                           12/39\cf1\highlight2 
+\par \cf0\highlight0   Installing       : google-noto-fonts-common-20201206-2.amzn2023.0.2.noarch             13/39\cf1\highlight2 
+\par \cf0\highlight0   Installing       : google-noto-sans-vf-fonts-20201206-2.amzn2023.0.2.noarch            14/39\cf1\highlight2 
+\par \cf0\highlight0   Installing       : langpacks-core-font-en-3.0-21.amzn2023.0.4.noarch                   15/39\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libbrotli-1.0.9-4.amzn2023.0.2.x86_64                               16/39\cf1\highlight2 
+\par \cf0\highlight0   Installing       : graphite2-1.3.14-7.amzn2023.0.2.x86_64                              17/39\cf1\highlight2 
+\par \cf0\highlight0   Installing       : giflib-5.2.1-9.amzn2023.0.1.x86_64                                  18/39\cf1\highlight2 
+\par \cf0\highlight0   Installing       : pixman-0.40.0-3.amzn2023.0.3.x86_64                                 19/39\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libXau-1.0.9-6.amzn2023.0.2.x86_64                                  20/39\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libxcb-1.13.1-7.amzn2023.0.2.x86_64                                 21/39\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libX11-1.7.2-3.amzn2023.0.4.x86_64                                  22/39\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libXext-1.3.4-6.amzn2023.0.2.x86_64                                 23/39\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libXrender-0.9.10-14.amzn2023.0.2.x86_64                            24/39\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libXi-1.7.10-6.amzn2023.0.2.x86_64                                  25/39\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libXtst-1.2.3-14.amzn2023.0.2.x86_64                                26/39\cf1\highlight2 
+\par \cf0\highlight0   Installing       : cairo-1.17.6-2.amzn2023.0.1.x86_64                                  27/39\cf1\highlight2 
+\par \cf0\highlight0   Installing       : harfbuzz-7.0.0-2.amzn2023.0.1.x86_64                                28/39\cf1\highlight2 
+\par \cf0\highlight0   Installing       : freetype-2.13.0-2.amzn2023.0.1.x86_64                               29/39\cf1\highlight2 
+\par \cf0\highlight0   Installing       : fontconfig-2.13.94-2.amzn2023.0.2.x86_64                            30/39\cf1\highlight2 
+\par \cf0\highlight0   Running scriptlet: fontconfig-2.13.94-2.amzn2023.0.2.x86_64                            30/39\cf1\highlight2 
+\par \cf0\highlight0   Installing       : java-21-amazon-corretto-headless-1:21.0.1+12-1.amzn2023.2.x86_64    31/39\cf1\highlight2 
+\par \cf0\highlight0   Running scriptlet: java-21-amazon-corretto-headless-1:21.0.1+12-1.amzn2023.2.x86_64    31/39\cf1\highlight2 
+\par \cf0\highlight0   Installing       : java-21-amazon-corretto-devel-1:21.0.1+12-1.amzn2023.2.x86_64       32/39\cf1\highlight2 
+\par \cf0\highlight0   Running scriptlet: java-21-amazon-corretto-devel-1:21.0.1+12-1.amzn2023.2.x86_64       32/39\cf1\highlight2 
+\par \cf0\highlight0   Installing       : java-17-amazon-corretto-headless-1:17.0.9+8-1.amzn2023.1.x86_64     33/39\cf1\highlight2 
+\par \cf0\highlight0   Running scriptlet: java-17-amazon-corretto-headless-1:17.0.9+8-1.amzn2023.1.x86_64     33/39\cf1\highlight2 
+\par \cf0\highlight0   Installing       : javapackages-tools-6.0.0-7.amzn2023.0.6.noarch                      34/39\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libXrandr-1.5.2-6.amzn2023.0.2.x86_64                               35/39\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libXinerama-1.1.4-8.amzn2023.0.2.x86_64                             36/39\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libXt-1.2.0-4.amzn2023.0.2.x86_64                                   37/39\cf1\highlight2 
+\par \cf0\highlight0   Installing       : java-21-amazon-corretto-1:21.0.1+12-1.amzn2023.2.x86_64             38/39\cf1\highlight2 
+\par \cf0\highlight0   Installing       : apache-maven-3.2.5-1.el6.noarch                                     39/39\cf1\highlight2 
+\par \cf0\highlight0   Running scriptlet: fontconfig-2.13.94-2.amzn2023.0.2.x86_64                            39/39\cf1\highlight2 
+\par \cf0\highlight0   Running scriptlet: apache-maven-3.2.5-1.el6.noarch                                     39/39\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : freetype-2.13.0-2.amzn2023.0.1.x86_64                                1/39\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libXi-1.7.10-6.amzn2023.0.2.x86_64                                   2/39\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libXtst-1.2.3-14.amzn2023.0.2.x86_64                                 3/39\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libXrender-0.9.10-14.amzn2023.0.2.x86_64                             4/39\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libxcb-1.13.1-7.amzn2023.0.2.x86_64                                  5/39\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libXt-1.2.0-4.amzn2023.0.2.x86_64                                    6/39\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : java-21-amazon-corretto-headless-1:21.0.1+12-1.amzn2023.2.x86_64     7/39\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libpng-2:1.6.37-10.amzn2023.0.6.x86_64                               8/39\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libXau-1.0.9-6.amzn2023.0.2.x86_64                                   9/39\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : java-21-amazon-corretto-1:21.0.1+12-1.amzn2023.2.x86_64             10/39\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libXinerama-1.1.4-8.amzn2023.0.2.x86_64                             11/39\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libSM-1.2.3-8.amzn2023.0.2.x86_64                                   12/39\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : cairo-1.17.6-2.amzn2023.0.1.x86_64                                  13/39\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libXext-1.3.4-6.amzn2023.0.2.x86_64                                 14/39\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : fontconfig-2.13.94-2.amzn2023.0.2.x86_64                            15/39\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : pixman-0.40.0-3.amzn2023.0.3.x86_64                                 16/39\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libICE-1.0.10-6.amzn2023.0.2.x86_64                                 17/39\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libXrandr-1.5.2-6.amzn2023.0.2.x86_64                               18/39\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : java-21-amazon-corretto-devel-1:21.0.1+12-1.amzn2023.2.x86_64       19/39\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : giflib-5.2.1-9.amzn2023.0.1.x86_64                                  20/39\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : graphite2-1.3.14-7.amzn2023.0.2.x86_64                              21/39\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : alsa-lib-1.2.7.2-1.amzn2023.0.2.x86_64                              22/39\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libX11-1.7.2-3.amzn2023.0.4.x86_64                                  23/39\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : harfbuzz-7.0.0-2.amzn2023.0.1.x86_64                                24/39\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libjpeg-turbo-2.1.4-2.amzn2023.0.5.x86_64                           25/39\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : java-17-amazon-corretto-headless-1:17.0.9+8-1.amzn2023.1.x86_64     26/39\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libbrotli-1.0.9-4.amzn2023.0.2.x86_64                               27/39\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : javapackages-tools-6.0.0-7.amzn2023.0.6.noarch                      28/39\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : google-noto-fonts-common-20201206-2.amzn2023.0.2.noarch             29/39\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : dejavu-serif-fonts-2.37-16.amzn2023.0.2.noarch                      30/39\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : google-noto-sans-vf-fonts-20201206-2.amzn2023.0.2.noarch            31/39\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libX11-common-1.7.2-3.amzn2023.0.4.noarch                           32/39\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : dejavu-sans-fonts-2.37-16.amzn2023.0.2.noarch                       33/39\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : dejavu-sans-mono-fonts-2.37-16.amzn2023.0.2.noarch                  34/39\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : langpacks-core-font-en-3.0-21.amzn2023.0.4.noarch                   35/39\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : xml-common-0.6.3-56.amzn2023.0.2.noarch                             36/39\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : fonts-filesystem-1:2.0.5-12.amzn2023.0.2.noarch                     37/39\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : javapackages-filesystem-6.0.0-7.amzn2023.0.6.noarch                 38/39\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : apache-maven-3.2.5-1.el6.noarch                                     39/39\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Installed:\cf1\highlight2 
+\par \cf0\highlight0   alsa-lib-1.2.7.2-1.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   apache-maven-3.2.5-1.el6.noarch\cf1\highlight2 
+\par \cf0\highlight0   cairo-1.17.6-2.amzn2023.0.1.x86_64\cf1\highlight2 
+\par \cf0\highlight0   dejavu-sans-fonts-2.37-16.amzn2023.0.2.noarch\cf1\highlight2 
+\par \cf0\highlight0   dejavu-sans-mono-fonts-2.37-16.amzn2023.0.2.noarch\cf1\highlight2 
+\par \cf0\highlight0   dejavu-serif-fonts-2.37-16.amzn2023.0.2.noarch\cf1\highlight2 
+\par \cf0\highlight0   fontconfig-2.13.94-2.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   fonts-filesystem-1:2.0.5-12.amzn2023.0.2.noarch\cf1\highlight2 
+\par \cf0\highlight0   freetype-2.13.0-2.amzn2023.0.1.x86_64\cf1\highlight2 
+\par \cf0\highlight0   giflib-5.2.1-9.amzn2023.0.1.x86_64\cf1\highlight2 
+\par \cf0\highlight0   google-noto-fonts-common-20201206-2.amzn2023.0.2.noarch\cf1\highlight2 
+\par \cf0\highlight0   google-noto-sans-vf-fonts-20201206-2.amzn2023.0.2.noarch\cf1\highlight2 
+\par \cf0\highlight0   graphite2-1.3.14-7.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   harfbuzz-7.0.0-2.amzn2023.0.1.x86_64\cf1\highlight2 
+\par \cf0\highlight0   java-17-amazon-corretto-headless-1:17.0.9+8-1.amzn2023.1.x86_64\cf1\highlight2 
+\par \cf0\highlight0   java-21-amazon-corretto-1:21.0.1+12-1.amzn2023.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   java-21-amazon-corretto-devel-1:21.0.1+12-1.amzn2023.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   java-21-amazon-corretto-headless-1:21.0.1+12-1.amzn2023.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   javapackages-filesystem-6.0.0-7.amzn2023.0.6.noarch\cf1\highlight2 
+\par \cf0\highlight0   javapackages-tools-6.0.0-7.amzn2023.0.6.noarch\cf1\highlight2 
+\par \cf0\highlight0   langpacks-core-font-en-3.0-21.amzn2023.0.4.noarch\cf1\highlight2 
+\par \cf0\highlight0   libICE-1.0.10-6.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   libSM-1.2.3-8.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   libX11-1.7.2-3.amzn2023.0.4.x86_64\cf1\highlight2 
+\par \cf0\highlight0   libX11-common-1.7.2-3.amzn2023.0.4.noarch\cf1\highlight2 
+\par \cf0\highlight0   libXau-1.0.9-6.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   libXext-1.3.4-6.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   libXi-1.7.10-6.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   libXinerama-1.1.4-8.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   libXrandr-1.5.2-6.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   libXrender-0.9.10-14.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   libXt-1.2.0-4.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   libXtst-1.2.3-14.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   libbrotli-1.0.9-4.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   libjpeg-turbo-2.1.4-2.amzn2023.0.5.x86_64\cf1\highlight2 
+\par \cf0\highlight0   libpng-2:1.6.37-10.amzn2023.0.6.x86_64\cf1\highlight2 
+\par \cf0\highlight0   libxcb-1.13.1-7.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   pixman-0.40.0-3.amzn2023.0.3.x86_64\cf1\highlight2 
+\par \cf0\highlight0   xml-common-0.6.3-56.amzn2023.0.2.noarch\cf1\highlight2 
+\par \cf0\highlight0 Skipped:\cf1\highlight2 
+\par \cf0\highlight0   apache-maven-3.5.2-1.el6.noarch\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Complete!\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-11-0 ~]$ sudo yum install java-1.8.0-devel\cf1\highlight2 
+\par \cf0\highlight0 Last metadata expiration check: 0:00:32 ago on Sun Jan  7 07:30:58 2024.\cf1\highlight2 
+\par \cf0\highlight0 Dependencies resolved.\cf1\highlight2 
+\par \cf0\highlight0 ===============================================================================================\cf1\highlight2 
+\par \cf0\highlight0  Package                            Arch     Version                       Repository     Size\cf1\highlight2 
+\par \cf0\highlight0 ===============================================================================================\cf1\highlight2 
+\par \cf0\highlight0 Installing:\cf1\highlight2 
+\par \cf0\highlight0  \cf3 java-1.8.0-amazon-corretto-devel  \cf0  x86_64   1:1.8.0_392.b08-1.amzn2023    amazonlinux    63 M\cf1\highlight2 
+\par \cf0\highlight0 Installing dependencies:\cf1\highlight2 
+\par \cf0\highlight0  \cf3 adwaita-cursor-theme              \cf0  noarch   40.1.1-1.amzn2023.0.2         amazonlinux   623 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 adwaita-icon-theme                \cf0  noarch   40.1.1-1.amzn2023.0.2         amazonlinux    11 M\cf1\highlight2 
+\par \cf0\highlight0  \cf3 at-spi2-atk                       \cf0  x86_64   2.38.0-2.amzn2023.0.2         amazonlinux    86 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 at-spi2-core                      \cf0  x86_64   2.40.3-1.amzn2023.0.1         amazonlinux   178 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 atk                               \cf0  x86_64   2.36.0-3.amzn2023.0.2         amazonlinux   271 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 avahi-libs                        \cf0  x86_64   0.8-14.amzn2023.0.12          amazonlinux    68 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 cairo-gobject                     \cf0  x86_64   1.17.6-2.amzn2023.0.1         amazonlinux    19 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 colord-libs                       \cf0  x86_64   1.4.5-2.amzn2023.0.2          amazonlinux   235 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 cups-libs                         \cf0  x86_64   1:2.3.3op2-18.amzn2023.0.7    amazonlinux   265 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 fribidi                           \cf0  x86_64   1.0.11-3.amzn2023.0.2         amazonlinux    54 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 gdk-pixbuf2                       \cf0  x86_64   2.42.10-1.amzn2023.0.1        amazonlinux   467 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 gdk-pixbuf2-modules               \cf0  x86_64   2.42.10-1.amzn2023.0.1        amazonlinux    88 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 glib-networking                   \cf0  x86_64   2.68.2-1.amzn2023.0.3         amazonlinux   169 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 gsettings-desktop-schemas         \cf0  x86_64   40.0-1.amzn2023.0.3           amazonlinux   667 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 gtk-update-icon-cache             \cf0  x86_64   3.24.30-4.amzn2023.0.4        amazonlinux    34 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 gtk3                              \cf0  x86_64   3.24.30-4.amzn2023.0.4        amazonlinux   4.8 M\cf1\highlight2 
+\par \cf0\highlight0  \cf3 hicolor-icon-theme                \cf0  noarch   0.17-10.amzn2023.0.3          amazonlinux    44 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 java-1.8.0-amazon-corretto        \cf0  x86_64   1:1.8.0_392.b08-1.amzn2023    amazonlinux    38 M\cf1\highlight2 
+\par \cf0\highlight0  \cf3 jbigkit-libs                      \cf0  x86_64   2.1-21.amzn2023.0.2           amazonlinux    54 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 json-glib                         \cf0  x86_64   1.6.6-1.amzn2023.0.2          amazonlinux   152 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 lcms2                             \cf0  x86_64   2.12-1.amzn2023.0.3           amazonlinux   174 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libX11-xcb                        \cf0  x86_64   1.7.2-3.amzn2023.0.4          amazonlinux    12 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libXcomposite                     \cf0  x86_64   0.4.5-5.amzn2023.0.2          amazonlinux    24 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libXcursor                        \cf0  x86_64   1.2.0-5.amzn2023.0.2          amazonlinux    31 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libXdamage                        \cf0  x86_64   1.1.5-5.amzn2023.0.2          amazonlinux    23 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libXfixes                         \cf0  x86_64   6.0.0-1.amzn2023.0.2          amazonlinux    20 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libXft                            \cf0  x86_64   2.3.3-6.amzn2023.0.2          amazonlinux    64 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libXxf86vm                        \cf0  x86_64   1.1.4-16.amzn2023.0.2         amazonlinux    19 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libcloudproviders                 \cf0  x86_64   0.3.1-3.amzn2023.0.2          amazonlinux    45 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libdatrie                         \cf0  x86_64   0.2.13-1.amzn2023.0.2         amazonlinux    33 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libdrm                            \cf0  x86_64   2.4.110-1.amzn2023.0.2        amazonlinux   164 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libepoxy                          \cf0  x86_64   1.5.9-1.amzn2023.0.2          amazonlinux   242 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libglvnd                          \cf0  x86_64   1:1.3.4-1.amzn2023.0.2        amazonlinux   138 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libglvnd-glx                      \cf0  x86_64   1:1.3.4-1.amzn2023.0.2        amazonlinux   141 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libgusb                           \cf0  x86_64   0.3.8-1.amzn2023.0.2          amazonlinux    51 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libicu                            \cf0  x86_64   67.1-7.amzn2023.0.3           amazonlinux   9.6 M\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libpciaccess                      \cf0  x86_64   0.16-4.amzn2023.0.2           amazonlinux    28 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libproxy                          \cf0  x86_64   0.4.15-30.amzn2023.0.5        amazonlinux    70 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libsoup                           \cf0  x86_64   2.72.0-6.amzn2023.0.2         amazonlinux   391 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libstemmer                        \cf0  x86_64   0-16.585svn.amzn2023.0.2      amazonlinux    84 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libthai                           \cf0  x86_64   0.1.28-6.amzn2023.0.2         amazonlinux   209 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libtiff                           \cf0  x86_64   4.4.0-4.amzn2023.0.17         amazonlinux   213 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libtracker-sparql                 \cf0  x86_64   3.1.2-1.amzn2023.0.2          amazonlinux   310 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libusbx                           \cf0  x86_64   1.0.24-2.amzn2023.0.2         amazonlinux    73 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libwayland-client                 \cf0  x86_64   1.22.0-1.amzn2023.0.2         amazonlinux    35 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libwayland-cursor                 \cf0  x86_64   1.22.0-1.amzn2023.0.2         amazonlinux    21 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libwayland-egl                    \cf0  x86_64   1.22.0-1.amzn2023.0.2         amazonlinux    14 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libwebp                           \cf0  x86_64   1.2.4-1.amzn2023.0.6          amazonlinux   341 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libxkbcommon                      \cf0  x86_64   1.3.0-1.amzn2023.0.2          amazonlinux   141 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 libxshmfence                      \cf0  x86_64   1.3-8.amzn2023.0.2            amazonlinux    13 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 llvm-libs                         \cf0  x86_64   15.0.7-3.amzn2023.0.1         amazonlinux    25 M\cf1\highlight2 
+\par \cf0\highlight0  \cf3 mesa-filesystem                   \cf0  x86_64   22.3.3-1140.amzn2023.0.3      amazonlinux    19 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 mesa-libGL                        \cf0  x86_64   22.3.3-1140.amzn2023.0.3      amazonlinux   178 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 mesa-libglapi                     \cf0  x86_64   22.3.3-1140.amzn2023.0.3      amazonlinux    55 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 pango                             \cf0  x86_64   1.48.10-1.amzn2023.0.3        amazonlinux   301 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 shared-mime-info                  \cf0  x86_64   2.2-2.amzn2023.0.1            amazonlinux   382 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 xkeyboard-config                  \cf0  noarch   2.33-1.amzn2023.0.2           amazonlinux   779 k\cf1\highlight2 
+\par \cf0\highlight0 Installing weak dependencies:\cf1\highlight2 
+\par \cf0\highlight0  \cf3 abattis-cantarell-fonts           \cf0  noarch   0.301-2.amzn2023.0.1          amazonlinux   366 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 adobe-source-code-pro-fonts       \cf0  noarch   2.030.1.050-10.amzn2023.0.2   amazonlinux   831 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 dconf                             \cf0  x86_64   0.40.0-3.amzn2023.0.2         amazonlinux   109 k\cf1\highlight2 
+\par \cf0\highlight0  \cf3 mesa-dri-drivers                  \cf0  x86_64   22.3.3-1140.amzn2023.0.3      amazonlinux    18 M\cf1\highlight2 
+\par \cf0\highlight0  \cf3 mesa-va-drivers                   \cf0  x86_64   22.3.3-1140.amzn2023.0.3      amazonlinux   3.6 M\cf1\highlight2 
+\par \cf0\highlight0  \cf3 tracker                           \cf0  x86_64   3.1.2-1.amzn2023.0.2          amazonlinux   539 k\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Transaction Summary\cf1\highlight2 
+\par \cf0\highlight0 ===============================================================================================\cf1\highlight2 
+\par \cf0\highlight0 Install  64 Packages\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Total download size: 182 M\cf1\highlight2 
+\par \cf0\highlight0 Installed size: 545 M\cf1\highlight2 
+\par \cf0\highlight0 Is this ok [y/N]: y\cf1\highlight2 
+\par \cf0\highlight0 Downloading Packages:\cf1\highlight2 
+\par \cf0\highlight0 (1/64): libXdamage-1.1.5-5.amzn2023.0.2.x86_64.rpm             220 kB/s |  23 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (2/64): mesa-filesystem-22.3.3-1140.amzn2023.0.3.x86_64.rpm    1.4 MB/s |  19 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (3/64): libglvnd-glx-1.3.4-1.amzn2023.0.2.x86_64.rpm           825 kB/s | 141 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (4/64): libsoup-2.72.0-6.amzn2023.0.2.x86_64.rpm               5.0 MB/s | 391 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (5/64): libXcursor-1.2.0-5.amzn2023.0.2.x86_64.rpm             1.2 MB/s |  31 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (6/64): libglvnd-1.3.4-1.amzn2023.0.2.x86_64.rpm               1.9 MB/s | 138 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (7/64): libwebp-1.2.4-1.amzn2023.0.6.x86_64.rpm                2.8 MB/s | 341 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (8/64): glib-networking-2.68.2-1.amzn2023.0.3.x86_64.rpm       2.1 MB/s | 169 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (9/64): libXft-2.3.3-6.amzn2023.0.2.x86_64.rpm                 4.4 MB/s |  64 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (10/64): libdatrie-0.2.13-1.amzn2023.0.2.x86_64.rpm            1.5 MB/s |  33 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (11/64): libwayland-egl-1.22.0-1.amzn2023.0.2.x86_64.rpm       554 kB/s |  14 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (12/64): gdk-pixbuf2-2.42.10-1.amzn2023.0.1.x86_64.rpm         4.5 MB/s | 467 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (13/64): gtk3-3.24.30-4.amzn2023.0.4.x86_64.rpm                 15 MB/s | 4.8 MB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (14/64): cairo-gobject-1.17.6-2.amzn2023.0.1.x86_64.rpm        1.1 MB/s |  19 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (15/64): mesa-va-drivers-22.3.3-1140.amzn2023.0.3.x86_64.rpm    17 MB/s | 3.6 MB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (16/64): libthai-0.1.28-6.amzn2023.0.2.x86_64.rpm              2.1 MB/s | 209 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (17/64): jbigkit-libs-2.1-21.amzn2023.0.2.x86_64.rpm           1.4 MB/s |  54 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (18/64): at-spi2-atk-2.38.0-2.amzn2023.0.2.x86_64.rpm          1.2 MB/s |  86 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (19/64): shared-mime-info-2.2-2.amzn2023.0.1.x86_64.rpm        5.3 MB/s | 382 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (20/64): libXxf86vm-1.1.4-16.amzn2023.0.2.x86_64.rpm           506 kB/s |  19 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (21/64): gdk-pixbuf2-modules-2.42.10-1.amzn2023.0.1.x86_64.rpm 1.2 MB/s |  88 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (22/64): java-1.8.0-amazon-corretto-devel-1.8.0_392.b08-1.amzn  44 MB/s |  63 MB     00:01\cf1\highlight2 
+\par \cf0\highlight0 (23/64): mesa-libGL-22.3.3-1140.amzn2023.0.3.x86_64.rpm        320 kB/s | 178 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (24/64): libusbx-1.0.24-2.amzn2023.0.2.x86_64.rpm              145 kB/s |  73 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (25/64): libxshmfence-1.3-8.amzn2023.0.2.x86_64.rpm            753 kB/s |  13 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (26/64): libXcomposite-0.4.5-5.amzn2023.0.2.x86_64.rpm         1.1 MB/s |  24 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (27/64): lcms2-2.12-1.amzn2023.0.3.x86_64.rpm                  2.7 MB/s | 174 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (28/64): atk-2.36.0-3.amzn2023.0.2.x86_64.rpm                  3.9 MB/s | 271 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (29/64): libdrm-2.4.110-1.amzn2023.0.2.x86_64.rpm              2.0 MB/s | 164 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (30/64): libgusb-0.3.8-1.amzn2023.0.2.x86_64.rpm               1.2 MB/s |  51 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (31/64): dconf-0.40.0-3.amzn2023.0.2.x86_64.rpm                1.2 MB/s | 109 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (32/64): libstemmer-0-16.585svn.amzn2023.0.2.x86_64.rpm        1.2 MB/s |  84 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (33/64): tracker-3.1.2-1.amzn2023.0.2.x86_64.rpm               7.0 MB/s | 539 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (34/64): libxkbcommon-1.3.0-1.amzn2023.0.2.x86_64.rpm          2.5 MB/s | 141 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (35/64): libproxy-0.4.15-30.amzn2023.0.5.x86_64.rpm            781 kB/s |  70 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (36/64): fribidi-1.0.11-3.amzn2023.0.2.x86_64.rpm              1.4 MB/s |  54 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (37/64): libwayland-cursor-1.22.0-1.amzn2023.0.2.x86_64.rpm    980 kB/s |  21 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (38/64): libXfixes-6.0.0-1.amzn2023.0.2.x86_64.rpm             593 kB/s |  20 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (39/64): avahi-libs-0.8-14.amzn2023.0.12.x86_64.rpm            3.1 MB/s |  68 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (40/64): libtracker-sparql-3.1.2-1.amzn2023.0.2.x86_64.rpm     3.2 MB/s | 310 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (41/64): at-spi2-core-2.40.3-1.amzn2023.0.1.x86_64.rpm         3.3 MB/s | 178 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (42/64): libpciaccess-0.16-4.amzn2023.0.2.x86_64.rpm           1.3 MB/s |  28 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (43/64): llvm-libs-15.0.7-3.amzn2023.0.1.x86_64.rpm             37 MB/s |  25 MB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (44/64): colord-libs-1.4.5-2.amzn2023.0.2.x86_64.rpm           871 kB/s | 235 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (45/64): cups-libs-2.3.3op2-18.amzn2023.0.7.x86_64.rpm         4.5 MB/s | 265 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (46/64): json-glib-1.6.6-1.amzn2023.0.2.x86_64.rpm             2.1 MB/s | 152 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (47/64): libepoxy-1.5.9-1.amzn2023.0.2.x86_64.rpm              2.1 MB/s | 242 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (48/64): libX11-xcb-1.7.2-3.amzn2023.0.4.x86_64.rpm            701 kB/s |  12 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (49/64): gsettings-desktop-schemas-40.0-1.amzn2023.0.3.x86_64. 5.5 MB/s | 667 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (50/64): java-1.8.0-amazon-corretto-1.8.0_392.b08-1.amzn2023.x  34 MB/s |  38 MB     00:01\cf1\highlight2 
+\par \cf0\highlight0 (51/64): libcloudproviders-0.3.1-3.amzn2023.0.2.x86_64.rpm     133 kB/s |  45 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (52/64): mesa-libglapi-22.3.3-1140.amzn2023.0.3.x86_64.rpm     164 kB/s |  55 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (53/64): gtk-update-icon-cache-3.24.30-4.amzn2023.0.4.x86_64.r 2.6 MB/s |  34 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (54/64): libwayland-client-1.22.0-1.amzn2023.0.2.x86_64.rpm    1.1 MB/s |  35 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (55/64): pango-1.48.10-1.amzn2023.0.3.x86_64.rpm               4.5 MB/s | 301 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (56/64): libtiff-4.4.0-4.amzn2023.0.17.x86_64.rpm              2.3 MB/s | 213 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (57/64): libicu-67.1-7.amzn2023.0.3.x86_64.rpm                  58 MB/s | 9.6 MB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (58/64): abattis-cantarell-fonts-0.301-2.amzn2023.0.1.noarch.r 3.8 MB/s | 366 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (59/64): adwaita-cursor-theme-40.1.1-1.amzn2023.0.2.noarch.rpm 9.9 MB/s | 623 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (60/64): hicolor-icon-theme-0.17-10.amzn2023.0.3.noarch.rpm    3.1 MB/s |  44 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (61/64): adobe-source-code-pro-fonts-2.030.1.050-10.amzn2023.0 5.4 MB/s | 831 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (62/64): adwaita-icon-theme-40.1.1-1.amzn2023.0.2.noarch.rpm    33 MB/s |  11 MB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (63/64): xkeyboard-config-2.33-1.amzn2023.0.2.noarch.rpm       6.2 MB/s | 779 kB     00:00\cf1\highlight2 
+\par \cf0\highlight0 (64/64): mesa-dri-drivers-22.3.3-1140.amzn2023.0.3.x86_64.rpm   30 MB/s |  18 MB     00:00\cf1\highlight2 
+\par \cf0\highlight0 -----------------------------------------------------------------------------------------------\cf1\highlight2 
+\par \cf0\highlight0 Total                                                           51 MB/s | 182 MB     00:03\cf1\highlight2 
+\par \cf0\highlight0 Running transaction check\cf1\highlight2 
+\par \cf0\highlight0 Transaction check succeeded.\cf1\highlight2 
+\par \cf0\highlight0 Running transaction test\cf1\highlight2 
+\par \cf0\highlight0 Transaction test succeeded.\cf1\highlight2 
+\par \cf0\highlight0 Running transaction\cf1\highlight2 
+\par \cf0\highlight0   Preparing        :                                                                       1/1\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libXfixes-6.0.0-1.amzn2023.0.2.x86_64                                1/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : atk-2.36.0-3.amzn2023.0.2.x86_64                                     2/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libicu-67.1-7.amzn2023.0.3.x86_64                                    3/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libwayland-client-1.22.0-1.amzn2023.0.2.x86_64                       4/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : mesa-libglapi-22.3.3-1140.amzn2023.0.3.x86_64                        5/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libX11-xcb-1.7.2-3.amzn2023.0.4.x86_64                               6/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : fribidi-1.0.11-3.amzn2023.0.2.x86_64                                 7/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : llvm-libs-15.0.7-3.amzn2023.0.1.x86_64                               8/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libstemmer-0-16.585svn.amzn2023.0.2.x86_64                           9/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libxshmfence-1.3-8.amzn2023.0.2.x86_64                              10/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libXxf86vm-1.1.4-16.amzn2023.0.2.x86_64                             11/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : cairo-gobject-1.17.6-2.amzn2023.0.1.x86_64                          12/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : mesa-filesystem-22.3.3-1140.amzn2023.0.3.x86_64                     13/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libwayland-cursor-1.22.0-1.amzn2023.0.2.x86_64                      14/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libXdamage-1.1.5-5.amzn2023.0.2.x86_64                              15/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libXcursor-1.2.0-5.amzn2023.0.2.x86_64                              16/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : xkeyboard-config-2.33-1.amzn2023.0.2.noarch                         17/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libxkbcommon-1.3.0-1.amzn2023.0.2.x86_64                            18/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : adobe-source-code-pro-fonts-2.030.1.050-10.amzn2023.0.2.noarch      19/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : hicolor-icon-theme-0.17-10.amzn2023.0.3.noarch                      20/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : adwaita-cursor-theme-40.1.1-1.amzn2023.0.2.noarch                   21/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : adwaita-icon-theme-40.1.1-1.amzn2023.0.2.noarch                     22/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : abattis-cantarell-fonts-0.301-2.amzn2023.0.1.noarch                 23/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : gsettings-desktop-schemas-40.0-1.amzn2023.0.3.x86_64                24/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libcloudproviders-0.3.1-3.amzn2023.0.2.x86_64                       25/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libepoxy-1.5.9-1.amzn2023.0.2.x86_64                                26/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : json-glib-1.6.6-1.amzn2023.0.2.x86_64                               27/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libpciaccess-0.16-4.amzn2023.0.2.x86_64                             28/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libdrm-2.4.110-1.amzn2023.0.2.x86_64                                29/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : mesa-va-drivers-22.3.3-1140.amzn2023.0.3.x86_64                     30/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : mesa-dri-drivers-22.3.3-1140.amzn2023.0.3.x86_64                    31/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : at-spi2-core-2.40.3-1.amzn2023.0.1.x86_64                           32/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : at-spi2-atk-2.38.0-2.amzn2023.0.2.x86_64                            33/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : avahi-libs-0.8-14.amzn2023.0.12.x86_64                              34/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : cups-libs-1:2.3.3op2-18.amzn2023.0.7.x86_64                         35/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libproxy-0.4.15-30.amzn2023.0.5.x86_64                              36/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : glib-networking-2.68.2-1.amzn2023.0.3.x86_64                        37/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libsoup-2.72.0-6.amzn2023.0.2.x86_64                                38/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : tracker-3.1.2-1.amzn2023.0.2.x86_64                                 39/64\cf1\highlight2 
+\par \cf0\highlight0   Running scriptlet: tracker-3.1.2-1.amzn2023.0.2.x86_64                                 39/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libtracker-sparql-3.1.2-1.amzn2023.0.2.x86_64                       40/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : dconf-0.40.0-3.amzn2023.0.2.x86_64                                  41/64\cf1\highlight2 
+\par \cf0\highlight0   Running scriptlet: dconf-0.40.0-3.amzn2023.0.2.x86_64                                  41/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libXcomposite-0.4.5-5.amzn2023.0.2.x86_64                           42/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : lcms2-2.12-1.amzn2023.0.3.x86_64                                    43/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libusbx-1.0.24-2.amzn2023.0.2.x86_64                                44/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libgusb-0.3.8-1.amzn2023.0.2.x86_64                                 45/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : colord-libs-1.4.5-2.amzn2023.0.2.x86_64                             46/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : shared-mime-info-2.2-2.amzn2023.0.1.x86_64                          47/64\cf1\highlight2 
+\par \cf0\highlight0   Running scriptlet: shared-mime-info-2.2-2.amzn2023.0.1.x86_64                          47/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : gdk-pixbuf2-2.42.10-1.amzn2023.0.1.x86_64                           48/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : gtk-update-icon-cache-3.24.30-4.amzn2023.0.4.x86_64                 49/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : jbigkit-libs-2.1-21.amzn2023.0.2.x86_64                             50/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libwayland-egl-1.22.0-1.amzn2023.0.2.x86_64                         51/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libdatrie-0.2.13-1.amzn2023.0.2.x86_64                              52/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libthai-0.1.28-6.amzn2023.0.2.x86_64                                53/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libXft-2.3.3-6.amzn2023.0.2.x86_64                                  54/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : pango-1.48.10-1.amzn2023.0.3.x86_64                                 55/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libglvnd-1:1.3.4-1.amzn2023.0.2.x86_64                              56/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : mesa-libGL-22.3.3-1140.amzn2023.0.3.x86_64                          57/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libglvnd-glx-1:1.3.4-1.amzn2023.0.2.x86_64                          58/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libwebp-1.2.4-1.amzn2023.0.6.x86_64                                 59/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : libtiff-4.4.0-4.amzn2023.0.17.x86_64                                60/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : gdk-pixbuf2-modules-2.42.10-1.amzn2023.0.1.x86_64                   61/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : gtk3-3.24.30-4.amzn2023.0.4.x86_64                                  62/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : java-1.8.0-amazon-corretto-1:1.8.0_392.b08-1.amzn2023.x86_64        63/64\cf1\highlight2 
+\par \cf0\highlight0   Running scriptlet: java-1.8.0-amazon-corretto-1:1.8.0_392.b08-1.amzn2023.x86_64        63/64\cf1\highlight2 
+\par \cf0\highlight0   Installing       : java-1.8.0-amazon-corretto-devel-1:1.8.0_392.b08-1.amzn2023.x86_6   64/64\cf1\highlight2 
+\par \cf0\highlight0   Running scriptlet: java-1.8.0-amazon-corretto-devel-1:1.8.0_392.b08-1.amzn2023.x86_6   64/64\cf1\highlight2 
+\par \cf0\highlight0   Running scriptlet: dconf-0.40.0-3.amzn2023.0.2.x86_64                                  64/64\cf1\highlight2 
+\par \cf0\highlight0   Running scriptlet: java-1.8.0-amazon-corretto-devel-1:1.8.0_392.b08-1.amzn2023.x86_6   64/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libXdamage-1.1.5-5.amzn2023.0.2.x86_64                               1/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : java-1.8.0-amazon-corretto-devel-1:1.8.0_392.b08-1.amzn2023.x86_6    2/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libglvnd-glx-1:1.3.4-1.amzn2023.0.2.x86_64                           3/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : mesa-filesystem-22.3.3-1140.amzn2023.0.3.x86_64                      4/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libsoup-2.72.0-6.amzn2023.0.2.x86_64                                 5/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libXcursor-1.2.0-5.amzn2023.0.2.x86_64                               6/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libwebp-1.2.4-1.amzn2023.0.6.x86_64                                  7/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libglvnd-1:1.3.4-1.amzn2023.0.2.x86_64                               8/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : glib-networking-2.68.2-1.amzn2023.0.3.x86_64                         9/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : gtk3-3.24.30-4.amzn2023.0.4.x86_64                                  10/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libXft-2.3.3-6.amzn2023.0.2.x86_64                                  11/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libdatrie-0.2.13-1.amzn2023.0.2.x86_64                              12/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libwayland-egl-1.22.0-1.amzn2023.0.2.x86_64                         13/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : gdk-pixbuf2-2.42.10-1.amzn2023.0.1.x86_64                           14/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : mesa-va-drivers-22.3.3-1140.amzn2023.0.3.x86_64                     15/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : cairo-gobject-1.17.6-2.amzn2023.0.1.x86_64                          16/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libthai-0.1.28-6.amzn2023.0.2.x86_64                                17/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : jbigkit-libs-2.1-21.amzn2023.0.2.x86_64                             18/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : at-spi2-atk-2.38.0-2.amzn2023.0.2.x86_64                            19/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : shared-mime-info-2.2-2.amzn2023.0.1.x86_64                          20/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libXxf86vm-1.1.4-16.amzn2023.0.2.x86_64                             21/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : gdk-pixbuf2-modules-2.42.10-1.amzn2023.0.1.x86_64                   22/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : mesa-libGL-22.3.3-1140.amzn2023.0.3.x86_64                          23/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libusbx-1.0.24-2.amzn2023.0.2.x86_64                                24/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : lcms2-2.12-1.amzn2023.0.3.x86_64                                    25/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libXcomposite-0.4.5-5.amzn2023.0.2.x86_64                           26/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libxshmfence-1.3-8.amzn2023.0.2.x86_64                              27/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : atk-2.36.0-3.amzn2023.0.2.x86_64                                    28/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libdrm-2.4.110-1.amzn2023.0.2.x86_64                                29/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : dconf-0.40.0-3.amzn2023.0.2.x86_64                                  30/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libgusb-0.3.8-1.amzn2023.0.2.x86_64                                 31/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libstemmer-0-16.585svn.amzn2023.0.2.x86_64                          32/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : tracker-3.1.2-1.amzn2023.0.2.x86_64                                 33/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : llvm-libs-15.0.7-3.amzn2023.0.1.x86_64                              34/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libproxy-0.4.15-30.amzn2023.0.5.x86_64                              35/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libxkbcommon-1.3.0-1.amzn2023.0.2.x86_64                            36/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : java-1.8.0-amazon-corretto-1:1.8.0_392.b08-1.amzn2023.x86_64        37/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : fribidi-1.0.11-3.amzn2023.0.2.x86_64                                38/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libwayland-cursor-1.22.0-1.amzn2023.0.2.x86_64                      39/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libXfixes-6.0.0-1.amzn2023.0.2.x86_64                               40/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : avahi-libs-0.8-14.amzn2023.0.12.x86_64                              41/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libtracker-sparql-3.1.2-1.amzn2023.0.2.x86_64                       42/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : at-spi2-core-2.40.3-1.amzn2023.0.1.x86_64                           43/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libpciaccess-0.16-4.amzn2023.0.2.x86_64                             44/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : colord-libs-1.4.5-2.amzn2023.0.2.x86_64                             45/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : cups-libs-1:2.3.3op2-18.amzn2023.0.7.x86_64                         46/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : json-glib-1.6.6-1.amzn2023.0.2.x86_64                               47/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libepoxy-1.5.9-1.amzn2023.0.2.x86_64                                48/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : gsettings-desktop-schemas-40.0-1.amzn2023.0.3.x86_64                49/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libX11-xcb-1.7.2-3.amzn2023.0.4.x86_64                              50/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libcloudproviders-0.3.1-3.amzn2023.0.2.x86_64                       51/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : mesa-libglapi-22.3.3-1140.amzn2023.0.3.x86_64                       52/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libwayland-client-1.22.0-1.amzn2023.0.2.x86_64                      53/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : gtk-update-icon-cache-3.24.30-4.amzn2023.0.4.x86_64                 54/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : pango-1.48.10-1.amzn2023.0.3.x86_64                                 55/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libtiff-4.4.0-4.amzn2023.0.17.x86_64                                56/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : libicu-67.1-7.amzn2023.0.3.x86_64                                   57/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : mesa-dri-drivers-22.3.3-1140.amzn2023.0.3.x86_64                    58/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : abattis-cantarell-fonts-0.301-2.amzn2023.0.1.noarch                 59/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : adwaita-cursor-theme-40.1.1-1.amzn2023.0.2.noarch                   60/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : adwaita-icon-theme-40.1.1-1.amzn2023.0.2.noarch                     61/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : hicolor-icon-theme-0.17-10.amzn2023.0.3.noarch                      62/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : adobe-source-code-pro-fonts-2.030.1.050-10.amzn2023.0.2.noarch      63/64\cf1\highlight2 
+\par \cf0\highlight0   Verifying        : xkeyboard-config-2.33-1.amzn2023.0.2.noarch                         64/64\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Installed:\cf1\highlight2 
+\par \cf0\highlight0   abattis-cantarell-fonts-0.301-2.amzn2023.0.1.noarch\cf1\highlight2 
+\par \cf0\highlight0   adobe-source-code-pro-fonts-2.030.1.050-10.amzn2023.0.2.noarch\cf1\highlight2 
+\par \cf0\highlight0   adwaita-cursor-theme-40.1.1-1.amzn2023.0.2.noarch\cf1\highlight2 
+\par \cf0\highlight0   adwaita-icon-theme-40.1.1-1.amzn2023.0.2.noarch\cf1\highlight2 
+\par \cf0\highlight0   at-spi2-atk-2.38.0-2.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   at-spi2-core-2.40.3-1.amzn2023.0.1.x86_64\cf1\highlight2 
+\par \cf0\highlight0   atk-2.36.0-3.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   avahi-libs-0.8-14.amzn2023.0.12.x86_64\cf1\highlight2 
+\par \cf0\highlight0   cairo-gobject-1.17.6-2.amzn2023.0.1.x86_64\cf1\highlight2 
+\par \cf0\highlight0   colord-libs-1.4.5-2.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   cups-libs-1:2.3.3op2-18.amzn2023.0.7.x86_64\cf1\highlight2 
+\par \cf0\highlight0   dconf-0.40.0-3.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   fribidi-1.0.11-3.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   gdk-pixbuf2-2.42.10-1.amzn2023.0.1.x86_64\cf1\highlight2 
+\par \cf0\highlight0   gdk-pixbuf2-modules-2.42.10-1.amzn2023.0.1.x86_64\cf1\highlight2 
+\par \cf0\highlight0   glib-networking-2.68.2-1.amzn2023.0.3.x86_64\cf1\highlight2 
+\par \cf0\highlight0   gsettings-desktop-schemas-40.0-1.amzn2023.0.3.x86_64\cf1\highlight2 
+\par \cf0\highlight0   gtk-update-icon-cache-3.24.30-4.amzn2023.0.4.x86_64\cf1\highlight2 
+\par \cf0\highlight0   gtk3-3.24.30-4.amzn2023.0.4.x86_64\cf1\highlight2 
+\par \cf0\highlight0   hicolor-icon-theme-0.17-10.amzn2023.0.3.noarch\cf1\highlight2 
+\par \cf0\highlight0   java-1.8.0-amazon-corretto-1:1.8.0_392.b08-1.amzn2023.x86_64\cf1\highlight2 
+\par \cf0\highlight0   java-1.8.0-amazon-corretto-devel-1:1.8.0_392.b08-1.amzn2023.x86_64\cf1\highlight2 
+\par \cf0\highlight0   jbigkit-libs-2.1-21.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   json-glib-1.6.6-1.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   lcms2-2.12-1.amzn2023.0.3.x86_64\cf1\highlight2 
+\par \cf0\highlight0   libX11-xcb-1.7.2-3.amzn2023.0.4.x86_64\cf1\highlight2 
+\par \cf0\highlight0   libXcomposite-0.4.5-5.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   libXcursor-1.2.0-5.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   libXdamage-1.1.5-5.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   libXfixes-6.0.0-1.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   libXft-2.3.3-6.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   libXxf86vm-1.1.4-16.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   libcloudproviders-0.3.1-3.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   libdatrie-0.2.13-1.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   libdrm-2.4.110-1.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   libepoxy-1.5.9-1.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   libglvnd-1:1.3.4-1.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   libglvnd-glx-1:1.3.4-1.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   libgusb-0.3.8-1.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   libicu-67.1-7.amzn2023.0.3.x86_64\cf1\highlight2 
+\par \cf0\highlight0   libpciaccess-0.16-4.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   libproxy-0.4.15-30.amzn2023.0.5.x86_64\cf1\highlight2 
+\par \cf0\highlight0   libsoup-2.72.0-6.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   libstemmer-0-16.585svn.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   libthai-0.1.28-6.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   libtiff-4.4.0-4.amzn2023.0.17.x86_64\cf1\highlight2 
+\par \cf0\highlight0   libtracker-sparql-3.1.2-1.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   libusbx-1.0.24-2.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   libwayland-client-1.22.0-1.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   libwayland-cursor-1.22.0-1.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   libwayland-egl-1.22.0-1.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   libwebp-1.2.4-1.amzn2023.0.6.x86_64\cf1\highlight2 
+\par \cf0\highlight0   libxkbcommon-1.3.0-1.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   libxshmfence-1.3-8.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   llvm-libs-15.0.7-3.amzn2023.0.1.x86_64\cf1\highlight2 
+\par \cf0\highlight0   mesa-dri-drivers-22.3.3-1140.amzn2023.0.3.x86_64\cf1\highlight2 
+\par \cf0\highlight0   mesa-filesystem-22.3.3-1140.amzn2023.0.3.x86_64\cf1\highlight2 
+\par \cf0\highlight0   mesa-libGL-22.3.3-1140.amzn2023.0.3.x86_64\cf1\highlight2 
+\par \cf0\highlight0   mesa-libglapi-22.3.3-1140.amzn2023.0.3.x86_64\cf1\highlight2 
+\par \cf0\highlight0   mesa-va-drivers-22.3.3-1140.amzn2023.0.3.x86_64\cf1\highlight2 
+\par \cf0\highlight0   pango-1.48.10-1.amzn2023.0.3.x86_64\cf1\highlight2 
+\par \cf0\highlight0   shared-mime-info-2.2-2.amzn2023.0.1.x86_64\cf1\highlight2 
+\par \cf0\highlight0   tracker-3.1.2-1.amzn2023.0.2.x86_64\cf1\highlight2 
+\par \cf0\highlight0   xkeyboard-config-2.33-1.amzn2023.0.2.noarch\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Complete!\cf1\highlight2 
+\par \cf0\highlight0 [ec2-user@ip-172-31-11-0 ~]$ sudo /usr/sbin/alternatives --config java\cf1\highlight2 
+\par 
+\par \cf0\highlight0 There are 3 programs which provide 'java'.\cf1\highlight2 
+\par 
+\par \cf0\highlight0   Selection    Command\cf1\highlight2 
+\par \cf0\highlight0 -----------------------------------------------\cf1\highlight2 
+\par \cf0\highlight0 *+ 1           /usr/lib/jvm/java-21-amazon-corretto.x86_64/bin/java\cf1\highlight2 
+\par \cf0\highlight0    2           /usr/lib/jvm/java-17-amazon-corretto.x86_64/bin/java\cf1\highlight2 
+\par \cf0\highlight0    3           /usr/lib/jvm/java-1.8.0-amazon-corretto.x86_64/jre/bin/java\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Enter to keep the current selection[+], or type selection number: 8\cf1\highlight2 
+\par 
+\par \cf0\highlight0 There are 3 programs which provide 'java'.\cf1\highlight2 
+\par 
+\par \cf0\highlight0   Selection    Command\cf1\highlight2 
+\par \cf0\highlight0 -----------------------------------------------\cf1\highlight2 
+\par \cf0\highlight0 *  1           /usr/lib/jvm/java-21-amazon-corretto.x86_64/bin/java\cf1\highlight2 
+\par \cf0\highlight0    2           /usr/lib/jvm/java-17-amazon-corretto.x86_64/bin/java\cf1\highlight2 
+\par \cf0\highlight0    3           /usr/lib/jvm/java-1.8.0-amazon-corretto.x86_64/jre/bin/java\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Enter to keep the current selection[+], or type selection number: java 8\cf1\highlight2 
+\par 
+\par \cf0\highlight0 There are 3 programs which provide 'java'.\cf1\highlight2 
+\par 
+\par \cf0\highlight0   Selection    Command\cf1\highlight2 
+\par \cf0\highlight0 -----------------------------------------------\cf1\highlight2 
+\par \cf0\highlight0 *  1           /usr/lib/jvm/java-21-amazon-corretto.x86_64/bin/java\cf1\highlight2 
+\par \cf0\highlight0    2           /usr/lib/jvm/java-17-amazon-corretto.x86_64/bin/java\cf1\highlight2 
+\par \cf0\highlight0    3           /usr/lib/jvm/java-1.8.0-amazon-corretto.x86_64/jre/bin/java\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Enter to keep the current selection[+], or type selection number:\cf1\highlight2 
+\par \cf0\highlight0 Broadcast message from root@localhost (Sun 2024-01-07 07:32:52 UTC):\cf1\highlight2 
+\par 
+\par \cf0\highlight0 The system will power off now!\cf1\highlight2 
+\par 
+\par 
+\par \cf4\highlight0 Remote side unexpectedly closed network connection\cf1\highlight2 
+\par 
+\par \cf5\highlight0\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\cf1\highlight2 
+\par 
+\par \cf4\highlight0 Session stopped\cf1\highlight2 
+\par \cf0\highlight0     - Press \cf6 <Return>\cf0  to exit tab\cf1\highlight2 
+\par \cf0\highlight0     - Press \cf6 R\cf0  to restart session\cf1\highlight2 
+\par \cf0\highlight0     - Press \cf6 S\cf0  to save terminal output to file\cf1\highlight2 
+\par \pard\cf0\highlight0\f1 
+\par }
+ 
